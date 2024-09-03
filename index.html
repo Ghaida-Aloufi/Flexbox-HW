@@ -147,14 +147,7 @@
     /*footer start*/
 
 
-    .icon-and-p {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: space-around;
-      align-items: center;
-      height: 20vw;
-    }
+   
 
     .container4 {
       display: flex;
@@ -170,16 +163,32 @@
 
     }
 
-    .icons {
-      background-color: #dba92b;
-      display: flex;
-      justify-content: center;
+
+
+    .sticky-div{ position: sticky;
+    bottom: 10vh;
+    left: 50%;
+    width: 3vw;
+    height: 6.5vh;
+    border-radius: 40vh;
+    color: white;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C08801;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+      
+
+    .icon {
       position: sticky;
-      left: 700px;
-      bottom: 110px;
-      width: 4vw;
+      bottom: 8vw;
+      left: 47vw;
       height: 4vw;
-      border-radius: 35px;
+      background-color: #C08801;
+      width: 5vw;
     }
 
     /* footer end */
@@ -284,26 +293,17 @@
   </div>
 
 
-  <div class="icons"> <img style="width: 2vw;"
-      src="https://yousef-alsaadan.github.io/Lab2-flexbox-Homework-/arrow-down-sign-to-navigate-white.png" alt="">
-  </div>
+
+  <div class="sticky-div">
+        <img style="width: 2vw;"
+           src="https://yousef-alsaadan.github.io/Lab2-flexbox-Homework-/arrow-down-sign-to-navigate-white.png" alt="">
+      </div>
+
+
 
   <footer class="container4">
-    <div class="icon-and-p">
-
       <p>Here's how it works</p>
-
-
   </footer>
-
-
-
-
-
-
-  </div>
-
-
 
 
 </body>
